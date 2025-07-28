@@ -4,9 +4,7 @@ A modern NFT marketplace built with Next.js, featuring a sleek UI powered by Tai
 
 > _Preview of Nevel NFT Marketplace homepage_
 ![Screenshot](./public/screenshot1.png)
-
 ![Screenshot](./public/screenshot2.png)
-
 ![Screenshot](./public/screenshot3.png)
 
 ## 🔗 Live Demo
