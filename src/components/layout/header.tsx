@@ -15,7 +15,7 @@ const links = [
 
 function Header() {
   return (
-    <header className="flex w-full items-center justify-between gap-4 px-5 py-3 lg:gap-6 lg:px-10 lg:py-5">
+    <header className="bg-background fixed inset-x-0 top-0 z-[9999] flex w-full items-center justify-between gap-4 px-5 py-3 lg:gap-6 lg:px-10 lg:py-5">
       <HamburgerMenu links={links} />
 
       <Link href="/">

@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nevel NFT Marketplace
+
+A modern NFT marketplace built with Next.js, featuring a sleek UI powered by TailwindCSS and Radix UI components.
+
+![Nevel NFT Marketplace](https://via.placeholder.com/1200x630?text=Nevel+NFT+Marketplace)
+
+> _Preview of Nevel NFT Marketplace homepage_
+![Screenshot](./public/screenshot1.png)
+
+![Screenshot](./public/screenshot2.png)
+
+![Screenshot](./public/screenshot3.png)
+
+## 🔗 Live Demo
+
+👉 [View Live Demo](https://nevel-tech-test-black.vercel.app/)
+
+## 💻 Source Code
+
+📦 [GitHub Repository](https://github.com/yaminthered/nevel-tech-test)
+
+## Features
+
+- ✨ Modern UI with responsive design
+- 🖼️ NFT collections showcase
+- 📅 Drop calendar for upcoming NFT releases
+- 🏆 NFT rankings
+- 📊 Free-to-earn opportunities
+- 📹 Video NFT support
+- 🛒 How-to-buy guides
+- 🗺️ Project roadmaps
+
+## Tech Stack
+
+- [Next.js 15](https://nextjs.org/) - React framework
+- [React 19](https://react.dev/) - UI library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [TailwindCSS 4](https://tailwindcss.com/) - Utility-first CSS
+- [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible components
+- [Embla Carousel](https://www.embla-carousel.com/) - Carousel component
+- [Lucide React](https://lucide.dev/) - Icon library
+- [PNPM](https://pnpm.io/) - Fast, disk space efficient package manager
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [PNPM](https://pnpm.io/) (v7 or later)
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+https://github.com/yaminthered/nevel-tech-test.git
+cd nevel-tech-test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Start the development server:
 
-## Learn More
+```bash
+pnpm dev
+```
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+### Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+nevel-test/
+├── public/             # Static assets
+├── src/
+│   ├── app/            # App router pages
+│   ├── assets/         # Images and other assets
+│   ├── components/     # Reusable components
+│   │   ├── home/       # Home page components
+│   │   └── ui/         # UI components
+│   └── styles/         # Global styles
+├── .gitignore
+├── .prettierrc         # Prettier configuration
+├── eslint.config.mjs   # ESLint configuration
+├── next.config.ts      # Next.js configuration
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs  # PostCSS configuration
+├── README.md
+└── tsconfig.json       # TypeScript configuration
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Available Scripts
+- `pnpm dev` - Run development server with Turbopack
+- `pnpm build` - Build for production
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint
 
-## Deploy on Vercel
+## Customization
+## Styling
+The project uses TailwindCSS for styling. Customize the theme in the TailwindCSS configuration file.
+
+## Components
+UI components are built using Radix UI primitives combined with TailwindCSS for styling. Check out the `src/components/ui` directory for reusable components.
+
+## Deployment
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -86,7 +86,7 @@ export default function Home() {
           <Heading>PROMOTION</Heading>
           <Image
             src={promotion}
-            alt="hot nft"
+            alt="promotion"
             className="h-auto w-full cursor-pointer rounded-xl lg:h-auto"
           />
         </section>
