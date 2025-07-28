@@ -2,8 +2,6 @@
 
 A modern NFT marketplace built with Next.js, featuring a sleek UI powered by TailwindCSS and Radix UI components.
 
-![Nevel NFT Marketplace](https://via.placeholder.com/1200x630?text=Nevel+NFT+Marketplace)
-
 > _Preview of Nevel NFT Marketplace homepage_
 ![Screenshot](./public/screenshot1.png)
 
