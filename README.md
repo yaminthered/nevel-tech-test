@@ -96,14 +96,25 @@ nevel-test/
 - `pnpm lint` - Run ESLint
 
 ## Customization
-## Styling
+### Styling
 The project uses TailwindCSS for styling. Customize the theme in the TailwindCSS configuration file.
 
-## Components
+### Components
 UI components are built using Radix UI primitives combined with TailwindCSS for styling. Check out the `src/components/ui` directory for reusable components.
 
-## Deployment
+### Deployment
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+Feel free to use, modify, and distribute it under the terms of the license.
+
+## Acknowledgments
+- [Next.js](https://nextjs.org/)
+- [Radix UI](https://www.radix-ui.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
