@@ -68,7 +68,7 @@ function MenuToggle({
           />
           <Path
             variants={{
-              closed: { d: "M 2 16.346 L 14 16.346" }, // ngắn hơn, căn trái
+              closed: { d: "M 2 16.346 L 14 16.346" },
               open: { d: "M 3 2.5 L 17 16.346" },
             }}
           />
